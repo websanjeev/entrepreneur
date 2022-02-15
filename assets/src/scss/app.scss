@@ -1,0 +1,23 @@
+@import "bootstrap";
+@import "~mburger-css/src/scss/mburger.scss";
+@import "../../../node_modules/swiper/swiper";
+@import "~mmenu-js/src/mmenu";
+
+:root{
+  --mb-button-size: 24px;
+  --mb-bar-width: 1;
+  --mb-bar-height: 2px;
+  --mb-bar-spacing: 6px;
+}
+
+@import "helpers";
+
+@import "components/main-header";
+@import "components/slider";
+//@import "components/cicon";
+@import "components/form";
+@import "components/main-menu";
+@import "components/main-banner";
+@import "components/footer-menu";
+@import "components/o-thumb";
+@import "components/scroll-reveal";

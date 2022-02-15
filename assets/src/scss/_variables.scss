@@ -1,0 +1,56 @@
+$green: #324235;
+$green-light: #8dad93;
+$golden: #d3a232;
+
+$primary: $green;
+$warning: #fff6e6;
+//$secondary: $golden;
+
+$font-family-primary: 'Inter', sans-serif;
+$font-family-secondary: 'Lobster', sans-serif;
+$headings-font-family: 'Poppins', sans-serif;
+
+$font-family-sans-serif: $font-family-primary;
+$font-size-base: 0.875rem;
+$font-size-sm: $font-size-base * 0.857142857;
+
+$line-height-base: 1.7;
+
+$h1-font-size: $font-size-base * 3.5;
+$h2-font-size: $font-size-base * 2.5;
+$h5-font-size: $font-size-base * 1.125;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1000px,
+  xxl: 1320px
+);
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 4.5,
+);
+
+$input-btn-font-family: $headings-font-family;
+$btn-border-radius: 0;
+$btn-font-weight: 600;
+
+$btn-border-radius-lg: 0;
+
+/**
+Mmenu
+ */
+$mm_backgroundColor: $primary;
+$mm_borderColor: $primary;
+$mm_textColor: rgba(#fff, 0.7);
+$mm_dimmedTextColor: rgba(#fff, 0.5);
+$mm_padding: 14px;

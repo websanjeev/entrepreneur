@@ -1,0 +1,91 @@
+$utilities: map-merge(
+    $utilities,
+    (
+      "padding-top": map-merge(
+          map-get($utilities, "padding-top"),
+          (
+            responsive: true,
+            values: map-merge(
+                map-get(map-get($utilities, "padding-top"), "values"),
+                (
+                  40c: 40%,
+                  70c: 70%,
+                  90c: 90%
+                )
+            )
+          )
+      ),
+      "max-width": map-merge(
+          map-get($utilities, "max-width"),
+          (
+            responsive: true,
+            values: map-merge(
+                map-get(map-get($utilities, "max-width"), "values"),
+                (
+                  130p: 130px,
+                  180p: 180px,
+                  400p: 400px,
+                  500p: 500px,
+                  700p: 700px,
+                  900p: 900px
+                )
+            )
+          )
+      ),
+      "min-height": (
+        property: min-height,
+        class: mh,
+        values: (
+          300p: 300px
+        )
+      ),
+
+      "zindex": (
+        property: z-index,
+        class: z,
+        values: (
+          10: 10,
+          100: 100
+        )
+      ),
+
+      "font-weight": map-merge(
+          map-get($utilities, "font-weight"),
+          (
+            values: map-merge(
+                map-get(map-get($utilities,"font-weight"), "values"),
+                (
+                  medium: 600,
+                )
+            )
+          )
+      ),
+
+      "font-family": map-merge(
+          map-get($utilities, "font-family"),
+          (
+            values: map-merge(
+                map-get(map-get($utilities,"font-family"), "values"),
+                (
+                  secondary: $font-family-secondary,
+                  heading: $headings-font-family
+                )
+            )
+          )
+      ),
+
+      "color": map-merge(
+          map-get($utilities, "color"),
+          (
+            values: map-merge(
+                map-get(map-get($utilities,"color"), "values"),
+                (
+                  "white-75": rgba($white, .75),
+                  "green-light": $green-light
+                )
+            )
+          )
+      ),
+
+    )
+);

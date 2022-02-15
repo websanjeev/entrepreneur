@@ -1,0 +1,16 @@
+.main-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  color: $black;
+  @include transition(background-color 0.2s);
+  z-index: 9;
+
+  &.headroom--not-top {
+    background: $white;
+    //color: $body-color;
+    box-shadow: 0 5px 5px rgba($black, 0.05);
+  }
+
+}
