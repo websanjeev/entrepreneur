@@ -88,7 +88,7 @@
         <div class="swiper-slide">
           <a href="#" class="text-decoration-none text-body">
             <div class="pt-70c bg-light position-relative">
-              <img src="assets/images/tmp/leopard.jpg" class="img-clip" />
+              <img src="assets/images/tmp/trans-himalaya.jpg" class="img-clip" />
             </div>
             <div class="mt-3 fs-4">
               Lorem Ipsum is simply dummy text of the printing and typesetting
