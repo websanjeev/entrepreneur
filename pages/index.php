@@ -32,7 +32,7 @@
         </div>
 
         <div class="scroll-reveal" data-sr-delay="600">
-          <a href="#" class="btn btn-lg btn-outline-dark mt-4">Know More</a>
+          <a href="#" class="btn btn-lg btn-outline-light mt-4">Know More</a>
         </div>
       </div>
     </div>
