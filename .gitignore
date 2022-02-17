@@ -3,7 +3,6 @@
 /assets/images
 /assets/js
 /assets/mix-manifest.json
-/config.php
 /.idea
 .DS_Store
 /node_modules
